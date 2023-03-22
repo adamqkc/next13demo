@@ -10,7 +10,7 @@ export default async function Users() {
   const usersData: Promise<User[]> = getAllUsers();
   const users = await usersData;
 
-  console.log("hello");
+  console.log("hello"); // shown in terminal because its a server component
 
   const content = (
     <section>
